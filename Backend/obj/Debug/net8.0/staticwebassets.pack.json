@@ -1,0 +1,69 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg",
+      "PackagePath": "staticwebassets\\images\\basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg",
+      "PackagePath": "staticwebassets\\images\\cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg",
+      "PackagePath": "staticwebassets\\images\\football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg",
+      "PackagePath": "staticwebassets\\images\\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
+      "PackagePath": "staticwebassets\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg",
+      "PackagePath": "staticwebassets\\images\\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg",
+      "PackagePath": "staticwebassets\\images\\ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp",
+      "PackagePath": "staticwebassets\\images\\table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg",
+      "PackagePath": "staticwebassets\\images\\tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg",
+      "PackagePath": "staticwebassets\\images\\volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg"
+    },
+    {
+      "Id": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg",
+      "PackagePath": "staticwebassets\\images\\wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Backend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Backend.props",
+      "PackagePath": "build\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Backend.props",
+      "PackagePath": "buildMultiTargeting\\Backend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Backend.props",
+      "PackagePath": "buildTransitive\\Backend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

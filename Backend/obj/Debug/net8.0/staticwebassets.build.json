@@ -1,0 +1,1155 @@
+{
+  "Version": 1,
+  "Hash": "vcHAhVxcVBva3Sv02ktHhTCz0eNmL2BxCVwIvsIovJ0=",
+  "Source": "Backend",
+  "BasePath": "_content/Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Backend\\wwwroot",
+      "Source": "Backend",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mwtgiw8p3q",
+      "Integrity": "Zo1lxd3Hw1BkJmlW4aDOApJjCbrAO7GIfcAjiGevxMk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ttxgjfrbpb",
+      "Integrity": "QQ5LTDuC7gsDFESy+4v4GcGg8tAd6YG9/D2NbcfDX5Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/football_6be68143-50ba-42f5-a06b-9d9bae6f630c#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "r8ia4nqvvq",
+      "Integrity": "JeU0ktT8vGSHnKHWu6XpaI0fYz3vPWK9hDIz3rzIrZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5t6ci394mh",
+      "Integrity": "eXughk7FZPp1zxG1y7figsB/S30/rGXdldd6esPBeoU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bdedtjdtm6",
+      "Integrity": "/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/phone6_221af74e-9692-455c-ae3b-ba2a04f80034#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eklr1bb5se",
+      "Integrity": "Er0sPrU3dUfndzuALzOwhs+KSYeKp8G+2lNjUOdm0s8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t85nns7xoq",
+      "Integrity": "s24Ie8ab6kzLNsbr+S8O7oiNOB0Gb2biiQlg55oDE1Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d9fleuusk4",
+      "Integrity": "gSYsEEjqSAgPCg7bRroZEOHTmnvhXeG659AibqKZnX4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k3e1731508",
+      "Integrity": "YF+1ZIFTd/PY/MNyAZNo1Qoc+AwN6kBt0WV7Ne3ISFQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9id668s5kn",
+      "Integrity": "4W8QTDy8YLRHK//qsKIyJCerPYtRn0J/GA4pLcjGX4k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg"
+    },
+    {
+      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "images/wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gf2vapmav0",
+      "Integrity": "DEz5ViG/2NJ6GIUEMLLLYzAqAZlR89trwZpqSErDPdg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zo1lxd3Hw1BkJmlW4aDOApJjCbrAO7GIfcAjiGevxMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zo1lxd3Hw1BkJmlW4aDOApJjCbrAO7GIfcAjiGevxMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.mwtgiw8p3q.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6447"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zo1lxd3Hw1BkJmlW4aDOApJjCbrAO7GIfcAjiGevxMk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mwtgiw8p3q"
+        },
+        {
+          "Name": "label",
+          "Value": "images/basketball_716c17a6-3aa8-41ba-9aab-fb1af65480c9.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zo1lxd3Hw1BkJmlW4aDOApJjCbrAO7GIfcAjiGevxMk="
+        }
+      ]
+    },
+    {
+      "Route": "images/cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ5LTDuC7gsDFESy+4v4GcGg8tAd6YG9/D2NbcfDX5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ5LTDuC7gsDFESy+4v4GcGg8tAd6YG9/D2NbcfDX5Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.ttxgjfrbpb.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "168768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QQ5LTDuC7gsDFESy+4v4GcGg8tAd6YG9/D2NbcfDX5Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:38:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ttxgjfrbpb"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cerave_facewash_b5ce9911-7b69-4f28-a432-2f1d374addfe.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QQ5LTDuC7gsDFESy+4v4GcGg8tAd6YG9/D2NbcfDX5Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeU0ktT8vGSHnKHWu6XpaI0fYz3vPWK9hDIz3rzIrZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:38:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeU0ktT8vGSHnKHWu6XpaI0fYz3vPWK9hDIz3rzIrZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/football_6be68143-50ba-42f5-a06b-9d9bae6f630c.r8ia4nqvvq.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13490"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JeU0ktT8vGSHnKHWu6XpaI0fYz3vPWK9hDIz3rzIrZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:38:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "r8ia4nqvvq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/football_6be68143-50ba-42f5-a06b-9d9bae6f630c.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JeU0ktT8vGSHnKHWu6XpaI0fYz3vPWK9hDIz3rzIrZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.5t6ci394mh.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eXughk7FZPp1zxG1y7figsB/S30/rGXdldd6esPBeoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 15:56:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5t6ci394mh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eXughk7FZPp1zxG1y7figsB/S30/rGXdldd6esPBeoU="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41287"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eXughk7FZPp1zxG1y7figsB/S30/rGXdldd6esPBeoU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 15:56:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eXughk7FZPp1zxG1y7figsB/S30/rGXdldd6esPBeoU="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.bdedtjdtm6.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 14:15:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bdedtjdtm6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 14:15:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone6_221af74e-9692-455c-ae3b-ba2a04f80034.eklr1bb5se.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Er0sPrU3dUfndzuALzOwhs+KSYeKp8G+2lNjUOdm0s8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 14:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eklr1bb5se"
+        },
+        {
+          "Name": "label",
+          "Value": "images/phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Er0sPrU3dUfndzuALzOwhs+KSYeKp8G+2lNjUOdm0s8="
+        }
+      ]
+    },
+    {
+      "Route": "images/phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "118027"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Er0sPrU3dUfndzuALzOwhs+KSYeKp8G+2lNjUOdm0s8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 24 Jan 2025 14:37:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Er0sPrU3dUfndzuALzOwhs+KSYeKp8G+2lNjUOdm0s8="
+        }
+      ]
+    },
+    {
+      "Route": "images/ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s24Ie8ab6kzLNsbr+S8O7oiNOB0Gb2biiQlg55oDE1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:39:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-s24Ie8ab6kzLNsbr+S8O7oiNOB0Gb2biiQlg55oDE1Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.t85nns7xoq.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3229"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"s24Ie8ab6kzLNsbr+S8O7oiNOB0Gb2biiQlg55oDE1Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:39:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t85nns7xoq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ponds_cream_70af014b-2a2f-4967-bb5e-2988697da3b3.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-s24Ie8ab6kzLNsbr+S8O7oiNOB0Gb2biiQlg55oDE1Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.d9fleuusk4.webp",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gSYsEEjqSAgPCg7bRroZEOHTmnvhXeG659AibqKZnX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:39:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d9fleuusk4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gSYsEEjqSAgPCg7bRroZEOHTmnvhXeG659AibqKZnX4="
+        }
+      ]
+    },
+    {
+      "Route": "images/table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\table_vase_c56c80d4-95b4-4e79-a7e3-e80b83d8d317.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "61486"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gSYsEEjqSAgPCg7bRroZEOHTmnvhXeG659AibqKZnX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:39:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gSYsEEjqSAgPCg7bRroZEOHTmnvhXeG659AibqKZnX4="
+        }
+      ]
+    },
+    {
+      "Route": "images/tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YF+1ZIFTd/PY/MNyAZNo1Qoc+AwN6kBt0WV7Ne3ISFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:12:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YF+1ZIFTd/PY/MNyAZNo1Qoc+AwN6kBt0WV7Ne3ISFQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.k3e1731508.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18210"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YF+1ZIFTd/PY/MNyAZNo1Qoc+AwN6kBt0WV7Ne3ISFQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 09:12:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k3e1731508"
+        },
+        {
+          "Name": "label",
+          "Value": "images/tablet (8)_511c89fe-0a6c-40ef-949a-82e8621714c5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YF+1ZIFTd/PY/MNyAZNo1Qoc+AwN6kBt0WV7Ne3ISFQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.9id668s5kn.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4W8QTDy8YLRHK//qsKIyJCerPYtRn0J/GA4pLcjGX4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:38:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9id668s5kn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4W8QTDy8YLRHK//qsKIyJCerPYtRn0J/GA4pLcjGX4k="
+        }
+      ]
+    },
+    {
+      "Route": "images/volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\volleyball_5906b18e-0f47-4d5c-b85b-08e4959024a2.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10656"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4W8QTDy8YLRHK//qsKIyJCerPYtRn0J/GA4pLcjGX4k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:38:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4W8QTDy8YLRHK//qsKIyJCerPYtRn0J/GA4pLcjGX4k="
+        }
+      ]
+    },
+    {
+      "Route": "images/wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.gf2vapmav0.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "324317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DEz5ViG/2NJ6GIUEMLLLYzAqAZlR89trwZpqSErDPdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gf2vapmav0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DEz5ViG/2NJ6GIUEMLLLYzAqAZlR89trwZpqSErDPdg="
+        }
+      ]
+    },
+    {
+      "Route": "images/wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg",
+      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\wood_table_5ab16f26-07b0-4428-a577-8fcd33cb3805.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "324317"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DEz5ViG/2NJ6GIUEMLLLYzAqAZlR89trwZpqSErDPdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 27 Jan 2025 11:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DEz5ViG/2NJ6GIUEMLLLYzAqAZlR89trwZpqSErDPdg="
+        }
+      ]
+    }
+  ]
+}
