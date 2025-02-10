@@ -62,14 +62,38 @@ namespace Backend.Controllers
                     dbContext.Carts.Add(cart);
                 }
 
-                await dbContext.SaveChangesAsync();
             }
-            return Ok(new { message = "Cart created successfully" });
+            await dbContext.SaveChangesAsync();
+            // Fetch updated cart items after saving changes
+            var updatedCart = await dbContext.Carts
+            .Where(c => c.User_id == 1)
+            .Include(c => c.Product) // Ensure Product data is loaded
+            .Select(c => new
+            {
+                c.Cart_id,
+                c.User_id,
+                c.Product_id,
+                c.Quantity,
+                c.Total_price,
+                Product = c.Product != null ? new
+                {
+                    c.Product.ProductName,
+                    c.Product.ImagePath,
+                    c.Product.Price,
+                    c.Product.Stock,
+                    c.Product.IsFeatured,
+                    c.Product.ProductId
+                } : null,
+            })
+            .ToListAsync();
+
+            return Ok(new { message = "Cart updated successfully", cart = updatedCart });
+
         }
 
         [HttpDelete]
         [Route("{id:int}")]
-        public IActionResult DeleteCartItem(int id)
+        public async Task<IActionResult> DeleteCartItem(int id)
         {
             try
             {
@@ -80,7 +104,29 @@ namespace Backend.Controllers
                 }
                 dbContext.Carts.Remove(cartItem);
                 dbContext.SaveChanges();
-                return Ok("Deleted");
+                var updatedCart = await dbContext.Carts
+                .Where(c => c.User_id == 1)
+                .Include(c => c.Product) // Ensure Product data is loaded
+                .Select(c => new
+                {
+                    c.Cart_id,
+                    c.User_id,
+                    c.Product_id,
+                    c.Quantity,
+                    c.Total_price,
+                    Product = c.Product != null ? new
+                    {
+                        c.Product.ProductName,
+                        c.Product.ImagePath,
+                        c.Product.Price,
+                        c.Product.Stock,
+                        c.Product.IsFeatured,
+                        c.Product.ProductId
+                    } : null,
+                })
+                .ToListAsync();
+
+                return Ok(new { message = "Cart item deleted successfully!", cart = updatedCart });
             }
             catch (Exception ex)
             {
