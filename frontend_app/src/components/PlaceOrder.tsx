@@ -4,9 +4,12 @@ import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import Radio from "@mui/material/Radio";
+import RadioGroup from "@mui/material/RadioGroup";
+import FormControlLabel from "@mui/material/FormControlLabel";
+import FormLabel from "@mui/material/FormLabel";
 import { useState } from "react";
 import axios from "axios";
-import { useAppContext } from "../context/AppContext";
 import { useNavigate } from "react-router";
 
 const style = {
@@ -32,10 +35,10 @@ export default function PlaceOrder({ setOpen, open }: PlaceOrderProps) {
     phone: "",
   });
 
+  const [paymentMethod, setPaymentMethod] = useState("cod");
+
   const navigate = useNavigate();
-
-  const { setLoading, setOpenSnackbar } = useAppContext();
-
+  console.log(paymentMethod);
   const handleClose = () => setOpen(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -52,14 +55,16 @@ export default function PlaceOrder({ setOpen, open }: PlaceOrderProps) {
     }
     try {
       const res = await axios.post(
-        "http://localhost:5140/api/order/1",
+        `http://localhost:5140/api/order/${paymentMethod}/1`,
         shippingDetails
       );
       console.log(res.data);
+      if (res.data.payment_url) {
+        // Redirect the user to the Khalti payment page
+        window.location.href = res.data.payment_url;
+      }
       setOpen(false);
-      setLoading(false);
-      setOpenSnackbar(true);
-      navigate("/orders");
+      navigate("/verify-payment");
     } catch (error) {
       console.error(error);
     }
@@ -72,9 +77,8 @@ export default function PlaceOrder({ setOpen, open }: PlaceOrderProps) {
           <Typography variant="h6" component="h2" textAlign="center" mb={2}>
             Place Your Order
           </Typography>
-
           <TextField
-            label="Full Name"
+            label="Name"
             name="name"
             variant="outlined"
             fullWidth
@@ -98,6 +102,19 @@ export default function PlaceOrder({ setOpen, open }: PlaceOrderProps) {
             value={shippingDetails.phone}
             onChange={handleChange}
           />
+
+          {/* Payment Method Selection */}
+          <FormLabel component="legend" sx={{ mt: 2 }}>
+            Payment Method
+          </FormLabel>
+          <RadioGroup
+            name="paymentMethod"
+            value={paymentMethod}
+            onChange={(e) => setPaymentMethod(e.target.value)}
+          >
+            <FormControlLabel value="cod" control={<Radio />} label="Cash on Delivery (COD)" />
+            <FormControlLabel value="khalti" control={<Radio />} label="Khalti (Online Payment)" />
+          </RadioGroup>
 
           <Button
             variant="contained"

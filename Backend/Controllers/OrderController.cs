@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Text;
 using Backend.Data;
 using Backend.Models;
 using Backend.Models.Entities;
@@ -28,6 +29,7 @@ namespace Backend.Controllers
                 // Fetch orders along with cart items and product details
                 var orders = await dbContext.Orders
                     .Where(o => o.UserId == userId)
+                    .OrderByDescending(o => o.OrderId)
                     .Select(o => new
                     {
                         o.OrderId,
@@ -65,8 +67,8 @@ namespace Backend.Controllers
 
 
 
-        [HttpPost("{userId:int}")]
-        public async Task<IActionResult> CreateOrder([FromRoute]int userId, [FromBody] Order order)
+        [HttpPost("cod/{userId:int}")]
+        public async Task<IActionResult> CreateOrder([FromRoute]int userId, [FromBody]Order order)
         {
             try
             {
@@ -97,34 +99,75 @@ namespace Backend.Controllers
 
                 return Ok("Order created successfully.");
 
-                //// Fetch the cart items associated with the created order
-                //var cartProducts = await dbContext.Carts
-                //    .Where(c => c.OrderId == order.OrderId)
-                //    .Include(c => c.Product) // Assuming you want to include product details too
-                //    .ToListAsync();
-
-                //// Create an anonymous object or return the full cart products with order details
-                //var response = new
-                //{
-                //    Order = order,
-                //    CartItems = cartProducts.Select(c => new
-                //    {
-                //        c.Cart_id,
-                //        c.Quantity,
-                //        c.Total_price,
-                //        c.Product!.ProductName, 
-                //        c.Product.ImagePath,
-                //        c.Product_id
-                //    })
-                //};
-
-                //return Ok(response); // Return the order with associated cart items
-
             }
             catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
+        }
+        [HttpPost("khalti/{userId:int}")]
+        public async Task<IActionResult> PayBill([FromRoute] int userId,[FromBody]Order order)
+        {
+            //return Ok();
+            var url = "https://dev.khalti.com/api/v2/epayment/initiate/";
+
+            var payload = new
+            {
+                return_url = "http://localhost:5173/verify-payment",
+                website_url = "http://localhost:5173/",
+                amount = 2000,
+                purchase_order_id = "Order01",
+                purchase_order_name = "test",
+                customer_info = new
+                {
+                    name = "Ram Bahadur",
+                    email = "test@khalti.com",
+                    phone = "9800000123"
+                }
+            };
+
+            var jsonPayload = JsonConvert.SerializeObject(payload);
+            var content = new StringContent(jsonPayload, Encoding.UTF8, "application/json");
+
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Add("Authorization", "key 692aa803490047268d344027209ed08e");
+            try
+            {// Get all cart items for the user
+                var cartItems = await dbContext.Carts
+                    .Where(c => c.User_id == userId && c.OrderId == null) // Only unprocessed cart items
+                    .ToListAsync();
+
+                if (cartItems.Count == 0)
+                {
+                    return BadRequest("No items in cart to order.");
+                }
+
+                // Calculate total amount
+                order.TotalAmount = cartItems.Sum(c => c.Total_price) + 20;  //20 is the delivery charge
+                // the payment is via khalti wallet
+                order.PaymentStatus = true;
+                // Add the new order
+                dbContext.Orders.Add(order);
+                await dbContext.SaveChangesAsync();
+
+                // Update cart items with OrderId
+                foreach (var item in cartItems)
+                {
+                    item.OrderId = order.OrderId;
+                }
+
+                await dbContext.SaveChangesAsync();
+                var response = await client.PostAsync(url, content);
+                var responseContent = await response.Content.ReadAsStringAsync();
+                return Ok(responseContent);
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return StatusCode(500, "Payment failed");
+            }
+
         }
 
     }

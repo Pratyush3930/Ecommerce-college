@@ -8,6 +8,7 @@ import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./components/Home";
 import OrderDisplay from "./components/OrderDisplay";
 import SuccessSnackbar from "./components/SuccessSnackbar";
+import PaymentSuccess from "./components/PaymentVerification";
 
 const App = () => {
   const { setCart, setProducts, products, setCartFilled } = useAppContext();
@@ -97,6 +98,7 @@ const App = () => {
         />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/orders" element={<OrderDisplay />} />
+        <Route path="/verify-payment" element={<PaymentSuccess />} />
       </Routes>
       <SuccessSnackbar/>
     </div>
