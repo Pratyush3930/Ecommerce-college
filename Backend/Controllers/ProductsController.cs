@@ -6,9 +6,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Backend.Controllers
 {
-    // localhost:xxxx/api/products
-    // since the class name is ProductsController,
-    // [controller] will be replaced with products.
 
     [Route("api/[controller]")]
     [ApiController]

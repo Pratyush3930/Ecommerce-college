@@ -58,7 +58,7 @@ const Header = () => {
               />
               <div className="flex flex-col">
                 <p className="dark:text-whiteSecondary text-blackPrimary text-base max-xl:text-sm">
-                  Sherwood Gruninger
+                  Pratyush Ojha
                 </p>
                 <p className="dark:text-whiteSecondary text-blackPrimary text-sm max-xl:text-xs">
                   Web Developer

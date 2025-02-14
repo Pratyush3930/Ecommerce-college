@@ -1,8 +1,14 @@
+import React from "react";
 import { useAppContext } from "../context/AppContext";
 import { Paper, Typography, Button, Divider } from "@mui/material";
+import PlaceOrder from "./PlaceOrder";
 
 const Checkout = () => {
   const { cart } = useAppContext();
+
+  const [open, setOpen] = React.useState(false);
+
+  const handleOpen = () => setOpen(true);
 
   // Calculate the total price
   const totalPrice = cart.reduce((total, item) => total + item.total_price, 0);
@@ -43,9 +49,11 @@ const Checkout = () => {
         variant="contained"
         color="primary"
         className="mt-1 px-4 py-4 w-full"
+        onClick={handleOpen}
       >
         Proceed to Checkout
       </Button>
+      <PlaceOrder setOpen={setOpen} open={open}/>
     </Paper>
   );
 };

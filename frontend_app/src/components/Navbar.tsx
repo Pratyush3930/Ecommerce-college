@@ -86,7 +86,9 @@ const Navbar = () => {
           <div>
             <SearchInput />
           </div>
-
+          <span className="cursor-pointer hover:text-gray-300 transition duration-300 text-wrap max-w-12" onClick={() => navigate("/orders") }>
+              Your Orders
+            </span>
           {/* Cart Icon with Cart Count */}
           <div className="relative cursor-pointer">
             <span onClick={() => navigate("/cart")}>

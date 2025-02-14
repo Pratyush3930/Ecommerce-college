@@ -16,8 +16,6 @@ interface CartTableProps {
     cart: CartProduct[];
 }
 
-
-
 const CartTable: React.FC<CartTableProps> = ({cart}) => {
 
     const { handleCartChange, handleCartItemDelete } = useAppContext();

@@ -1,4 +1,4 @@
-import { HiOutlineSave, HiOutlineUpload, HiOutlineUser } from "react-icons/hi";
+import { HiOutlineSave, HiOutlineUpload } from "react-icons/hi";
 import { InputWithLabel, Sidebar, SimpleInput, WhiteButton } from "../components";
 import { useState } from "react";
 
@@ -44,7 +44,7 @@ const Profile = () => {
                 />
                 <div>
                   <p className="dark:text-whiteSecondary text-blackPrimary text-xl">
-                    Sherwood Gruninger
+                    Pratyush Ojha
                   </p>
                   <p className="dark:text-whiteSecondary text-blackPrimary">
                     Web Developer

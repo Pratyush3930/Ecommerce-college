@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xjSK5H4o2IN4A00BmEZaO6jB6tHAYcdQ6blX1hLhr18=",
+  "Hash": "GyhvhZWyhlTHUeJCb1ZmsWCZpgdEDr5MdC3EL2qrQgY=",
   "Source": "Backend",
   "BasePath": "_content/Backend",
   "Mode": "Default",
@@ -99,27 +99,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg"
-    },
-    {
-      "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
-      "SourceId": "Backend",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\",
-      "BasePath": "_content/Backend",
-      "RelativePath": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "bdedtjdtm6",
-      "Integrity": "/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg"
     },
     {
       "Identity": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg",
@@ -574,88 +553,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-eXughk7FZPp1zxG1y7figsB/S30/rGXdldd6esPBeoU="
-        }
-      ]
-    },
-    {
-      "Route": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.bdedtjdtm6.jpg",
-      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37717"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 13:42:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bdedtjdtm6"
-        },
-        {
-          "Name": "label",
-          "Value": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw="
-        }
-      ]
-    },
-    {
-      "Route": "images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
-      "AssetFile": "E:\\college\\Ecommerce lab\\e-commerce app\\Backend\\wwwroot\\images\\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "37717"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 03 Feb 2025 13:42:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw="
         }
       ]
     },

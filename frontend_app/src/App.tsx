@@ -6,6 +6,8 @@ import CartPage from "./components/CartPage";
 import { useAppContext } from "./context/AppContext";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./components/Home";
+import OrderDisplay from "./components/OrderDisplay";
+import SuccessSnackbar from "./components/SuccessSnackbar";
 
 const App = () => {
   const { setCart, setProducts, products, setCartFilled } = useAppContext();
@@ -43,7 +45,7 @@ const App = () => {
         });
         localStorage.setItem("cart", JSON.stringify(cartData));
         setCart(cartData);
-        const isCartFilled = cartData && cartData.length > 0? true : false;
+        const isCartFilled = cartData && cartData.length > 0 ? true : false;
         setCartFilled(isCartFilled);
         console.log(cartData);
       })
@@ -52,6 +54,7 @@ const App = () => {
 
   useEffect(() => {
     fetchCartData();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [location]); // Depend on location to trigger the effect on changes
 
   // Group products by category
@@ -93,7 +96,9 @@ const App = () => {
           }
         />
         <Route path="/cart" element={<CartPage />} />
+        <Route path="/orders" element={<OrderDisplay />} />
       </Routes>
+      <SuccessSnackbar/>
     </div>
   );
 };

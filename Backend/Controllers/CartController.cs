@@ -18,9 +18,9 @@ namespace Backend.Controllers
             this.dbContext = dbContext;
         }
         [HttpGet]
-        public IActionResult GetCartItems()
+        public async Task<IActionResult> GetCartItems()
         {
-            var cartItems = dbContext.Carts.ToList();
+            var cartItems =await dbContext.Carts.Where(c => c.OrderId == null && c.User_id == 1).ToListAsync();
 
             return Ok(cartItems);
         }
@@ -38,7 +38,7 @@ namespace Backend.Controllers
                 Console.WriteLine($"ProductId: {item.ProductId}, Quantity: {item.Quantity}");
                 // Check if the product already exists in the cart
                 var existingCartItem = await dbContext.Carts
-                    .FirstOrDefaultAsync(c => c.User_id == 1 && c.Product_id == item.ProductId);
+                    .FirstOrDefaultAsync(c => c.User_id == 1 && c.Product_id == item.ProductId && c.OrderId == null);
                 if (existingCartItem != null)
                 {
                     // Update existing cart item
@@ -66,7 +66,7 @@ namespace Backend.Controllers
             await dbContext.SaveChangesAsync();
             // Fetch updated cart items after saving changes
             var updatedCart = await dbContext.Carts
-            .Where(c => c.User_id == 1)
+            .Where(c => c.User_id == 1 && c.OrderId == null)
             .Include(c => c.Product) // Ensure Product data is loaded
             .Select(c => new
             {
@@ -105,7 +105,7 @@ namespace Backend.Controllers
                 dbContext.Carts.Remove(cartItem);
                 dbContext.SaveChanges();
                 var updatedCart = await dbContext.Carts
-                .Where(c => c.User_id == 1)
+                .Where(c => c.User_id == 1 && c.OrderId == null)
                 .Include(c => c.Product) // Ensure Product data is loaded
                 .Select(c => new
                 {

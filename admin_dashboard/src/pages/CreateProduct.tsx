@@ -9,22 +9,20 @@ import { useProductContext } from "../context/ProductContext";
 import { createProduct } from "../api/productService";
 
 const CreateProduct = () => {
-  const {
-    newProduct,
-    setNewProduct,
-    // loading,
-    // setLoading,
-    // error,
-    // setError,
-    setProducts,
-    handleUpload,
-  } = useProductContext();
+  const { newProduct, setNewProduct, setProducts, handleUpload } =
+    useProductContext();
 
   const handleCreateProduct = async (e: React.SyntheticEvent) => {
     e.preventDefault();
     const productNew = await createProduct(newProduct); // immediately response deko set garxa
     setProducts((product) => [...product, productNew]); // balla balla afai runtime mai set garna lekheko code
-    setNewProduct({ productName: "", price: "", stock: "", category: "Default", isFeatured: false });
+    setNewProduct({
+      productName: "",
+      price: "",
+      stock: "",
+      category: "Default",
+      isFeatured: false,
+    });
   };
 
   return (
@@ -42,12 +40,6 @@ const CreateProduct = () => {
               className="flex gap-x-2 max-[370px]:flex-col max-[370px]:gap-2 max-[370px]:items-center"
               onClick={(e) => handleCreateProduct(e)}
             >
-              {/* <button className="dark:bg-blackPrimary bg-whiteSecondary border border-gray-600 w-48 py-2 text-lg dark:hover:border-gray-500 hover:border-gray-400 duration-200 flex items-center justify-center gap-x-2">
-                <AiOutlineSave className="dark:text-whiteSecondary text-blackPrimary text-xl" />
-                <span className="dark:text-whiteSecondary text-blackPrimary font-medium">
-                  Save draft
-                </span>
-              </button> */}
               <Link
                 to="/products"
                 className="dark:bg-whiteSecondary bg-blackPrimary w-48 py-2 text-lg dark:hover:bg-white hover:bg-black duration-200 flex items-center justify-center gap-x-2"

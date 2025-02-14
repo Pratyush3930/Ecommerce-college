@@ -6,7 +6,7 @@ interface ProductFilterProps {
   onFilterChange?: (filters: { price: number | null; category: string }) => void;
 }
 
-const ProductFilter: React.FC<ProductFilterProps> = ({ categories, onFilterChange }) => {
+const ProductFilter: React.FC<ProductFilterProps> = ({ categories }) => {
   const [price, setPrice] = useState<number>(50);
   const [category, setCategory] = useState<string>("");
 

@@ -1,5 +1,5 @@
 import React, { createContext, useState, ReactNode } from "react";
-import { CartProduct, CreateCartProduct, Product } from "../types"; // Ensure correct import path for `Product`
+import { CartProduct, CreateCartProduct, Order, Product } from "../types"; // Ensure correct import path for `Product`
 import axios from "axios";
 
 interface AppContextType {
@@ -20,6 +20,12 @@ interface AppContextType {
   productQuantity: number;
   setProductQuantity: React.Dispatch<React.SetStateAction<number>>;
   handleCartItemDelete: (productId: number) => void;
+  orderDetails: Order[];
+  setOrderDetails: React.Dispatch<React.SetStateAction<Order[]>>;
+  loading: boolean;
+  setLoading: React.Dispatch<React.SetStateAction<boolean>>;
+  openSnackbar: boolean;  
+  setOpenSnackbar: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -32,6 +38,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({
   const [cart, setCart] = useState<CartProduct[]>([]);
   const [cartFilled, setCartFilled] = useState<boolean>(false);
   const [productQuantity, setProductQuantity] = useState<number>(0);
+  const [orderDetails, setOrderDetails] = useState<Order[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+  const [openSnackbar, setOpenSnackbar] = useState(false);
 
   // Handle adding an item to the cart
   const updateCart = async (updatedCartProducts: CreateCartProduct[]) => {
@@ -113,6 +122,12 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({
         productQuantity,
         setProductQuantity,
         handleCartItemDelete,
+        orderDetails,
+        setOrderDetails,
+        loading,
+        setLoading,
+        openSnackbar,
+        setOpenSnackbar
       }}
     >
       {children}

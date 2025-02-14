@@ -2,27 +2,27 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import {
   Categories,
   CreateCategory,
-  CreateOrder,
+  // CreateOrder,
   CreateProduct,
-  CreateReview,
-  CreateUser,
+  // CreateReview,
+  // CreateUser,
   EditCategory,
-  EditOrder,
+  // EditOrder,
   EditProduct,
-  EditReview,
-  EditUser,
-  HelpDesk,
+  // EditReview,
+  // EditUser,
+  // HelpDesk,
   HomeLayout,
   Landing,
   LandingV2,
   Login,
   Notifications,
-  Orders,
+  // Orders,
   Products,
   Profile,
   Register,
-  Reviews,
-  Users,
+  // Reviews,
+  // Users,
 } from "./pages";
 import { ProductProvider } from "./context/ProductContext";
 
@@ -70,46 +70,6 @@ const router = createBrowserRouter([
       {
         path: "/categories/:id",
         element: <EditCategory />,
-      },
-      {
-        path: "/orders",
-        element: <Orders />,
-      },
-      {
-        path: "/orders/create-order",
-        element: <CreateOrder />,
-      },
-      {
-        path: "/orders/1",
-        element: <EditOrder />,
-      },
-      {
-        path: "/reviews",
-        element: <Reviews />,
-      },
-      {
-        path: "/reviews/:id",
-        element: <EditReview />,
-      },
-      {
-        path: "/reviews/create-review",
-        element: <CreateReview />,
-      },
-      {
-        path: "/users",
-        element: <Users />,
-      },
-      {
-        path: "/users/:id",
-        element: <EditUser />,
-      },
-      {
-        path: "/users/create-user",
-        element: <CreateUser />,
-      },
-      {
-        path: "/help-desk",
-        element: <HelpDesk />,
       },
       {
         path: "/notifications",

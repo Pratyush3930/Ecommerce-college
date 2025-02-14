@@ -1,4 +1,4 @@
-import { ImageUpload, InputWithLabel, Sidebar } from "../components";
+import { InputWithLabel, Sidebar } from "../components";
 import { HiOutlineSave } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import SimpleInput from "../components/SimpleInput";
@@ -10,7 +10,7 @@ import { useEffect } from "react";
 import { updateProduct } from "../api/productService";
 
 const EditProduct = () => {
-  const { editProduct, setEditProduct, products, handleUpload, setProducts } =
+  const { editProduct, setEditProduct, products, setProducts } =
     useProductContext();
 
   const handleUpdateProduct = async (productId: number) => {
@@ -182,7 +182,7 @@ const EditProduct = () => {
                 {!editProduct.ProductImage && (
                   <div className="flex justify-center gap-x-2 mt-5 flex-wrap">
                     <img
-                      src={`https://localhost:7012${editProduct.imagePath}`}
+                      src={`http://localhost:5140${editProduct.imagePath}`}
                       className="w-full h-64 object-contain rounded"
                     />
                   </div>

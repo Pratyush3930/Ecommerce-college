@@ -72,24 +72,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\phone product_3968bdde-fe7a-47e5-ad64-b63912df77f2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>Backend</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/Backend</BasePath>
-      <RelativePath>images/phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bdedtjdtm6</Fingerprint>
-      <Integrity>/wLKeaQvdxwDcMLmsZq5XOYy/YUmihF3trXzgcSbLSw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\phone1_0dcdf32c-442a-4c53-84ca-561d0699d503.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\phone6_221af74e-9692-455c-ae3b-ba2a04f80034.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>Backend</SourceId>
